@@ -1,0 +1,43 @@
+# Valo Health
+
+> Valo Health is a Boston-based drug discovery and development company that combines real-world human data, artificial intelligence, advanced causal inference and predictive chemistry to identify and validate therapeutic targets. Valo Health publishes no public API, no developer portal and no machine-readable API contract; this file describes the company's public web surface only.
+
+Generated: 2026-08-05
+Method: generated (from apis.yml — /llms.txt returned 404 on www.valohealth.com)
+Source: https://www.valohealth.com/
+
+## About
+
+Valo Health organizes its work around two stated capabilities:
+
+- **Human Causal Biology** — applies AI/ML and statistical genetics to large-scale human datasets, then validates findings in human tissue.
+- **Closed-Loop Chemistry** — pairs integrated computational modeling with laboratory work to engineer novel small molecules.
+
+The company was launched out of Flagship Pioneering and is historically associated with its Opal Computational Platform. It operates a shared risk-and-reward partnership model with pharmaceutical companies, advancing early-stage R&D while partners lead clinical development.
+
+## APIs
+
+None. Valo Health does not publish a public API, SDK, webhook surface, developer portal or machine-readable specification. The Opal Computational Platform is internal R&D tooling and is not offered for programmatic access; the partnership program is a pharmaceutical research collaboration, not a technical integration.
+
+## Company
+
+- [Company](https://www.valohealth.com/company): Leadership and company overview.
+- [Approach](https://www.valohealth.com/approach): Human Causal Biology and Closed-Loop Chemistry.
+- [Partnership](https://www.valohealth.com/partnership): Pharmaceutical research collaboration model.
+- [Careers](https://www.valohealth.com/company/careers): Open roles.
+- [Contact](https://www.valohealth.com/contact): Company contact form.
+
+## News and research
+
+- [News & Insights](https://www.valohealth.com/news): Dated news and insights stream.
+- [Press Releases](https://www.valohealth.com/press): Company announcements.
+- [Publications](https://www.valohealth.com/publications): Peer-reviewed research output.
+
+## Legal
+
+- [Terms & Conditions](https://www.valohealth.com/terms-conditions)
+- [Privacy Policy](https://www.valohealth.com/privacy-policy)
+
+## API Evangelist artifacts
+
+- [Domain security](security/valo-health-domain-security.yml): Probed TLS, HSTS, DNSSEC, CAA, SPF and DMARC posture for valohealth.com.

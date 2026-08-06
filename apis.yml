@@ -1,8 +1,19 @@
 aid: valo-health
 name: Valo Health
-description: 'Valo Health is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Valo Health is a Boston-based drug discovery and development company that
+  combines real-world human data, artificial intelligence, advanced causal inference and
+  predictive chemistry to identify and validate therapeutic targets. Its work is organized
+  around two stated capabilities: Human Causal Biology, which applies AI/ML and statistical
+  genetics to large-scale human datasets and validates findings in human tissue, and
+  Closed-Loop Chemistry, which pairs integrated computational modeling with laboratory
+  work to engineer novel small molecules. The company, launched out of Flagship Pioneering
+  and historically associated with its Opal Computational Platform, operates a shared
+  risk-and-reward partnership model with pharmaceutical companies including Novo Nordisk,
+  Merck KGaA, Pfizer and Lundbeck, advancing early-stage R&D while partners lead clinical
+  development. Valo Health is a private biotechnology company that publishes no developer
+  program, no public API and no machine-readable API contract.'
 url: https://raw.githubusercontent.com/api-evangelist/valo-health/refs/heads/main/apis.yml
+image: https://valo-health.transforms.svdcdn.com/production/general/valo-preview.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +23,14 @@ created: '2026-08-05'
 modified: '2026-08-05'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Life Sciences
+- Artificial Intelligence
+- Machine Learning
+- Pharmaceuticals
+- Health
+- Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,58 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/valo-health-domain-security.yml
+- type: LLMsTxt
+  url: llms/valo-health-llms.txt
 - type: Website
+  url: https://www.valohealth.com/
+- type: About
+  url: https://www.valohealth.com/company
+- type: Approach
+  url: https://www.valohealth.com/approach
+- type: Partnership
+  url: https://www.valohealth.com/partnership
+- type: Blog
+  url: https://www.valohealth.com/news
+- type: Press
+  url: https://www.valohealth.com/press
+- type: Publications
+  url: https://www.valohealth.com/publications
+- type: Careers
+  url: https://www.valohealth.com/company/careers
+- type: Contact
+  url: https://www.valohealth.com/contact
+- type: TermsOfService
+  url: https://www.valohealth.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.valohealth.com/privacy-policy
+- type: SecondaryMarket
   url: https://www.hiive.com/securities/valo-health-stock
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Valo Health runs a nine-page Craft CMS marketing site whose sitemap contains only
+    company, approach, partnership, press and legal sections, and valohealth.com serves
+    a wildcard that answers 200 with the identical 34KB homepage for api., docs.,
+    developer. and any invented subdomain, so those hosts are not developer surfaces.
+  evidence:
+  - url: https://www.valohealth.com/developers
+    status: 404
+  - url: https://api.valohealth.com/openapi.json
+    status: 404
+  - url: https://www.valohealth.com/llms.txt
+    status: 404
+  - url: https://www.valohealth.com/.well-known/agent-card.json
+    status: 404
+  - url: https://zzz-nonexistent-ae-control.valohealth.com/
+    status: 200
+  - url: https://github.com/valohealth
+    status: 404
+  checked: '2026-08-05'
