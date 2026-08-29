@@ -13,6 +13,17 @@ description: 'Valo Health is a Boston-based drug discovery and development compa
   development. Valo Health is a private biotechnology company that publishes no developer
   program, no public API and no machine-readable API contract.'
 url: https://raw.githubusercontent.com/api-evangelist/valo-health/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://valo-health.transforms.svdcdn.com/production/general/valo-preview.png
 x-type: company
 x-source: harvest:secondary-market
